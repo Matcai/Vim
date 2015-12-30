@@ -67,9 +67,12 @@ set sw=4
 set ts=4
 set et
 set is
-map!	<C-b>	<left>
-map!	<C-f>	<right>
-imap	<C-a>	<Home>
-imap 	<C-e> 	<End>
+noremap!	<C-b>	<left>
+noremap!	<C-f>	<right>
+
+inoremap	<C-a>	<Home>
+inoremap 	<C-e> 	<End>
 inoremap b	<S-left>
 inoremap f	<S-right>
+inoremap    <C-p>   <up>
+inoremap    <C-n>   <down>
