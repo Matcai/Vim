@@ -65,7 +65,6 @@ endif
 let &guicursor = &guicursor . ",a:blinkon0"
 set sw=4
 set ts=4
-set et
 set is
 noremap!	<C-b>	<left>
 noremap!	<C-f>	<right>
