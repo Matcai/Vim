@@ -63,9 +63,12 @@ endif
 " Don't wake up system with blinking cursor:
 " http://www.linuxpowertop.org/known.php
 let &guicursor = &guicursor . ",a:blinkon0"
-set sw=4
 set ts=4
+set ts=4
+set sts=4
 set is
+set hls
+
 noremap!	<C-b>	<left>
 noremap!	<C-f>	<right>
 
